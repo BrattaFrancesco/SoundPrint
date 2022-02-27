@@ -1,7 +1,7 @@
+package song;
+
 import org.junit.Assert;
 import org.junit.Test;
-import song.Note;
-import song.Song;
 
 import java.util.ArrayList;
 import java.util.List;
