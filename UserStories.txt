@@ -1,0 +1,13 @@
+US-1 – Input notes:
+    The system takes as inputs the notes in international format and their duration and save them (choose if use a specific object or array of strings).
+    Example: A 0.25, B 0.5, C 1, D 2, E 4 → {A, 0.25} {B, 0.5} {C, 1} {D, 2} {E, 4}
+
+US-2 – Tempo
+    The system takes as input the tempo in BPM fo a song.
+
+US-3 - Translator
+    A translator take as input a song and produce a gcode that will be played by the printer.
+
+US-4 – Do not cross the limit
+    A printer has max dimension on each axis, the translator will consider it and when it produce gcode it send the printer head back if it will cross the limit.
+    Example: ender-3 has a 220 mm X ax, if during translation we reach this distance the translator will produce gcode in order to send back the printer head.
